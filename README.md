@@ -1,5 +1,5 @@
 # Facebom
-Brute Force Attack program for Facebook Accounts
+Brute Forcer Attack program for Facebook Accounts
 
 # Requirements
 
