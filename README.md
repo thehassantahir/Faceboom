@@ -4,7 +4,7 @@ Brute Forcer Attack program for Facebook Accounts
 # Requirements
 
 * git
-* Python 2.7
+* Python 2.7 to  3.8
 * pip
 
 # Install
