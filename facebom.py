@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 ######################
-# SCRIPT : Facebom
-#    JOB : Brute Force Attack on Facebook Accounts
-#Codedby : Hassan Tahir
+# SCRIPT NAME: Faceboom ~ v 1.2.0
+# WORKING : Brute Force Attack on Facebook Accounts
+# PROGRAMMER : Hassan Tahir
 ######################
 ##--------------------- Import Libraries --------------------##
 import socket,time,os,optparse,random,re
@@ -285,6 +285,4 @@ if __name__=='__main__':
 #####################   END OF TOOL  #########################
 #####################                #########################
 ##############################################################
-#This Tool by Hassan Tahir
-#Have a nice day :)
-#GoodBye
+#This Tool is programmed by Hassan Tahir over MIT Lic
