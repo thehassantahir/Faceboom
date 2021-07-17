@@ -126,6 +126,10 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
    ```sh
    python3 faceboom.py
    ```
+5. Check the PATH and WAY
+   ```sh
+   python3 faceboom.py -h
+   ```
 
 <!-- CONTRIBUTING -->
 ## Contributing
