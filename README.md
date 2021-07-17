@@ -100,7 +100,7 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
   ```
   OR
   ```sh
-  pip install pip
+  sudo apt install pip
   ```
 * Install request for python
   ```sh
