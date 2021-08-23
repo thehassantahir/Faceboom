@@ -12,8 +12,6 @@
     <img src="https://github.com/hassan-tahir/Faceboom/blob/master/img/faceboom-cover.png" alt="Logo" width="650" height="250">
   </a>
 
-  <h3 align="center">FACEBOOM</h3>
-
   <p align="center">
     A Social-Engineering Brute force application to hack facebook accounts!
     <br />
