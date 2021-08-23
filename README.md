@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="hassan-tahir.github.io">
-    <img src="https://github.com/hassan-tahir/Faceboom/blob/master/img/faceboom-logo.png" alt="Logo" width="650" height="250">
+    <img src="https://github.com/hassan-tahir/Faceboom/blob/master/img/faceboom-cover.png" alt="Logo" width="650" height="250">
   </a>
 
   <h3 align="center">FACEBOOM</h3>
