@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 ##################################
-# Program Name: Faceboom ~ v 1.3.0
+# Program Name: Faceboom ~ v 1.4.1
 # Working : Brute Force Attack on Facebook Accounts
 # Author : Hassan Tahir
 ##################################
