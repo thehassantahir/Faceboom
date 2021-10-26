@@ -151,11 +151,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Author Twitter - [@Hassan tahir](https://twitter.com/hassan_tahir_)
+Author Twitter - [@Hassan tahir](https://twitter.com/thehassantahir)
 
-Project Link: [https://github.com/hassan-tahir/faceboom](https://github.com/hassan-tahir/faceboom)
+Project Link: [https://github.com/thehassantahir/faceboom](https://github.com/thehassantahir/faceboom)
 
-Website Link: [https://hassan-tahir.github.io](hassantahir)
+Website Link: [https://thehassantahir.web.app](hassantahir)
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
