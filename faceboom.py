@@ -294,4 +294,4 @@ if __name__=='__main__':
   Main()
 # End of the program
 
-# This Tool is programmed by Hassan Tahir over MIT Lic
+# This Tool is programmed by Hassan Tahir
