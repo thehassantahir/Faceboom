@@ -43,6 +43,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#upcoming">Upcoming</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -114,7 +115,7 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
 1. This program does not requie any installation because of run-time.
 2. Clone the repo
    ```sh
-   git clone https://github.com/hassan-tahir/faceboom
+   git clone https://github.com/thehassantahir/faceboom
    ```
 3. Get into the directory of the program
    ```sh
@@ -128,6 +129,10 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
    ```sh
    python3 faceboom.py -h
    ```
+   
+  ### Upcoming
+  
+  1. Requirements.txt file {NEW FEATURE}
 
 <!-- CONTRIBUTING -->
 ## Contributing
