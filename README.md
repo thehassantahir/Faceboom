@@ -133,6 +133,8 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
   ### Upcoming
   
   1. Requirements.txt file {NEW FEATURE}
+  2. .exe for windows
+  3. GUI for both env (linux, windows)
 
 <!-- CONTRIBUTING -->
 ## Contributing
