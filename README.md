@@ -1,8 +1,11 @@
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
+ 
+ ![Language](https://img.shields.io/github/languages/top/thehassantahir/faceboom?style=for-the-badge)
+ ![issues](https://img.shields.io/github/issues/thehassantahir/faceboom?style=for-the-badge)
+ ![codesize](https://img.shields.io/github/languages/code-size/thehassantahir/faceboom?style=for-the-badge)
+ ![license](https://img.shields.io/github/license/thehassantahir/faceboom?style=for-the-badge)
+ ![forks](https://img.shields.io/github/forks/thehassantahir/faceboom?style=for-the-badge)
+ ![stars](https://img.shields.io/github/stars/thehassantahir/faceboom?style=for-the-badge)
+ ![twitter](https://img.shields.io/twitter/follow/thehassantahir?style=for-the-badge)
 
 
 <!-- PROJECT LOGO -->
