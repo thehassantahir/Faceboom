@@ -72,8 +72,6 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 * [Python](https://www.python.org/)
-* [pip](https://www.python.org/)
-
 
 
 <!-- GETTING STARTED -->
