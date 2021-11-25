@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="hassan-tahir.github.io">
-    <img src="https://github.com/hassan-tahir/Faceboom/blob/master/img/faceboom-cover.png" alt="Logo">
+    <img src="https://github.com/thehassantahir/Faceboom/blob/master/img/faceboom-cover.png" alt="Logo">
   </a>
 
   <p align="center">
