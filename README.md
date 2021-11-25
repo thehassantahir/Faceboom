@@ -163,7 +163,7 @@ Author Twitter - [@Hassan tahir](https://twitter.com/thehassantahir)
 
 Project Link: [https://github.com/thehassantahir/faceboom](https://github.com/thehassantahir/faceboom)
 
-Website Link: [https://thehassantahir.web.app](hassantahir)
+Website Link: [https://thehassantahir.web.app](https://thehassantahir.web.app)
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
