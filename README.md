@@ -79,7 +79,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 How to get this application run?
 
-### Prerequisite
+### Prerequisites
 
 FIrst of all you need to install python with the version of 3.6 and git in your system.
 * For installing python in linux 
