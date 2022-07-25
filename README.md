@@ -81,35 +81,15 @@ How to get this application run?
 
 ### Prerequisites
 
-FIrst of all you need to install python with the version of 3.6 and git in your system.
-* For installing python in linux 
-  ```sh
-  sudo apt install python
+* For Linux installation 
   ```
-* if you are using windows then install python from python.org
-
-* Install git for linux
-  ```sh
-  sudo apt install git
+  cd faceboom
+  chmod +x setup.sh
+  ./setup.sh
   ```
-* if you are using windows then install from https://git-scm.com/downloads
-
-* * Install pip for python
-  ```sh
-  python install pip
-  ```
-  OR
-  ```sh
-  sudo apt install pip
-  ```
-* Install request for python
-  ```sh
-  pip install requests
-  ```
-* Install mechanize for python
-  ```sh
-  pip install mechanize
-  ```
+* For Windows installation
+  * install python3 from python.org
+  * install git from https://git-scm.com/downloads
 
 ### Usage
 
@@ -134,8 +114,8 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
   ### Upcoming
   
   1. Requirements.txt file {NEW FEATURE}
-  2. .exe for windows
-  3. GUI for both env (linux, windows)
+  2. .exe for Windows
+  3. GUI for both env (Linux, Windows)
 
 <!-- CONTRIBUTING -->
 ## Contributing
