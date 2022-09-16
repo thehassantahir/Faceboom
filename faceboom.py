@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 ##################################
-# Program Name: Faceboom ~ v 1.4.1
+# Program Name: Faceboom ~ v 1.1.0
 # Working : Brute Force Attack on Facebook Accounts
 # Author : Hassan Tahir
 ##################################
@@ -292,6 +292,6 @@ def Main():
 
 if __name__=='__main__':
   Main()
-# End of the program
+
 
 # This Tool is programmed by Hassan Tahir over MIT Lic
