@@ -122,7 +122,7 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
    ```
 4. Run your program
    ```sh
-   python3 faceboom.py
+   python3 faceboom.pyhttps://www.facebook.com/qbwesley.qbwesley.7?mibextid=ZbWKwLhttps://www.facebook.com/qbwesley.qbwesley.7?mibextid=ZbWKwL
    ```
 5. Check the PATH and WAY
    ```sh
@@ -134,7 +134,7 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
+1. Fork the Projecthttps://www.facebook.com/qbwesley.qbwesley.7?mibextid=ZbWKwL
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
