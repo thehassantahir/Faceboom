@@ -96,20 +96,20 @@ FIrst of all you need to install python with the version of 3.6 and git in your 
   ```sh
   python install pip
   ```
-  OR
+  ORhttps://www.facebook.com/qbwesley.qbwesley.7?mibextid=ZbWKwL
   ```sh
   sudo apt install pip
   ```
 * Install request for python
   ```sh
-  pip install requests
+  https://www.facebook.com/qbwesley.qbwesley.7?mibextid=ZbWKwL requests
   ```
 * Install mechanize for python
   ```sh
   pip install mechanize
   ```
 
-### Usage
+### Usagehttps://www.facebook.com/qbwesley.qbwesley.7?mibextid=ZbWKwL
 
 1. This program does not requie any installation because of run-time.
 2. Clone the repo
